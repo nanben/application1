@@ -1,0 +1,360 @@
+body {
+  margin: 0px;
+  width: 100vw;
+  height: 50vh;
+
+}
+
+#root {
+  
+  height: 100px;
+  width: 100vw;
+  background-color:white;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+.map-filter{
+  height: 520px;
+  width: 100%;
+  top:10px;
+}
+.map-suivi{
+  height: 480px;
+  width:40%;
+  top:35px;
+  left: 300px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #31fa17;
+}
+
+.image{
+  
+  left: 500px;
+  width: 350px;
+  bottom: 180px;
+  position: absolute;
+}
+.autho{
+
+  left: 500px;
+  width: 350px;
+  position: absolute;
+  bottom: 250px;
+}
+.navbar-nav{
+  max-width: 100%;
+  display: list-item;
+  list-style: none;
+}
+.item{
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 1.10rem;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: blue;
+  
+}
+.it{
+  margin-left : 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.10rem;
+}
+.btn{
+  padding-left: 20px;
+ color: white;
+ background-color:wheat;
+}
+.link{
+  text-decoration-line: none;
+  color:white;
+  font-size: 20px;
+  font-weight: 20px;
+  text-shadow: 3px 2px 4px;
+}
+.link1{
+  text-decoration-line: none;
+  color:white;
+  font-size: 20px;
+  font-weight: 0px;
+}
+.link2{
+  text-decoration-line: none;
+  color:white;
+  font-size: 20px;
+  font-weight: 20px;
+
+}
+.link3{
+  text-decoration-line: none;
+  color:white;
+  font-size: 20px;
+  font-weight: 20px;
+}
+.navbar{
+  right: 0px;
+  background-color:#ad3408;
+  height: 50px;
+  z-index:1030;
+  top:10px;
+  border-width: 2px;
+  border-color: #31fa17;
+}
+.head{
+  z-index:1030;
+  position: absolute;
+  left: 600px;
+}
+.text{
+  left:50px;
+  color: #204285;
+  
+  
+}
+.drap{
+  position: absolute;
+    z-index: 1030;
+    top:5px;
+    padding-left: 100px;
+}
+.text1{
+  left: 300px;
+  position: absolute;
+  top: 50px;
+  color: rgb(164, 167, 7);
+}
+.joy{
+  z-index: 1030;
+  position: absolute;
+  padding-right:0px;
+}
+
+.alert {
+  z-index: 999;
+  width:400px;
+  
+}
+.form-filtre {
+  z-index: 999;
+  position: absolute;
+  right: 5px;
+  bottom: 18px;
+  width: 300px;
+  height: 500px;
+  border-color: black;
+}
+.form-suivi{
+  z-index: 999;
+  position: absolute;
+  left: 0px;
+  bottom: 10px;
+  width: 300px;
+  height: 500px;
+  border-color: black;
+}
+.table{
+  z-index: 999;
+  position: absolute;
+  right: 0px;
+  width: 300px;
+ 
+  
+  
+  border-color: black;
+}
+.formA{
+   z-index: 999;
+   left: 3px;
+   width: 350px;
+   position: absolute;
+   bottom: 0px;
+}
+.formB{
+  z-index: 999;
+  left: 3px;
+  width: 350px;
+  position: absolute;
+  top: 10px;
+ 
+}
+.formC{
+  z-index: 999;
+  left: 503px;
+  width: 800px;
+  position: absolute;
+  top: 60px;
+}
+.form {
+  left: 500px;
+  width: 350px;
+  
+  position: absolute;
+}
+.sendForm{
+  z-index: 999;
+  border-color: rgba(130, 136, 130, 0.596);
+  right: 0px;
+  position: absolute;
+  top:50px;
+
+}
+.chart{
+  width: 900px;
+  height: 80px;
+  right: 45px;
+  position: absolute;
+  top:500px;
+  z-index: 999;
+ 
+}
+.char{
+  width: 900px;
+  height: 80px;
+  right: 45px;
+  position: absolute;
+  top:500px;
+ 
+}
+.chartdate{
+  width: 900px;
+  height: 80px;
+  right: 45px;
+  position: absolute;
+  top:500px;
+  
+}
+.ho{
+  z-index: 999;
+  position:absolute;
+}
+.chartcat{
+  width: 900px;
+  height: 80px;
+  right: 45px;
+  position: absolute;
+  top:500px;
+ 
+}
+.chartdateX{
+  width: 900px;
+  height: 80px;
+  right: 45px;
+  position: absolute;
+  top:78px;
+ 
+}
+.chartC{
+  width: 1000px;
+  height: 200px;
+ top: 150px;
+  right: 45px;
+  position: absolute;
+
+}
+.bilan{
+  width: 500px;
+  height: 240px;
+  top: 180px;
+  right: 0px;
+  position: absolute;
+}
+.legend{
+  left:758px;
+  position: absolute;
+  top:550px;
+}
+.legend1{
+  left: 10px;
+  position:absolute;
+  top:370px;
+}
+.textcart{
+  width: 550px;
+  top:115px;
+  position: absolute;
+  left: 300px;
+  height: 10px;
+  padding-left: 20px;
+}
+.texttable{
+  width: 530px;
+  top:120px;
+  position: absolute;
+  left: 850px;
+  height: 10px;
+}
+.compteursuivi{
+  left:435px;
+  position: absolute;
+  top:540px;
+}
+.compteur{
+  position: absolute;
+  left: 5px;
+  width: 350px;
+  height: 30px;
+  z-index: 999;
+  
+}
+.legende {
+  z-index: 999;
+  left:5px;
+  position:absolute;
+  width: 240px;
+  background:  rgb(131, 77, 128);
+}
+.legende-suivi{
+  z-index:999;
+  left: 30px;
+  position:absolute;
+  width: 560px;
+  height: 100px;
+  background-color: #b4bdce;
+  
+}
+.para{
+  font-family: 'Times New Roman', Times, serif;
+  position:inline;
+}
+.para1{
+  font-family: 'Times New Roman', Times, serif;
+  position:inline;
+  padding-left: 20px;
+}
+.iconPosition {
+  display: inline-block;
+  left:100px;
+}
+
+
+.icon{
+  width: 20px;
+}
+.iconHead{
+  width: 30px;
+  display: inline-block;
+  left: 400px;
+}
+.iconHead1{
+  width: 30px;
+  left:10px;
+}
+.iconHead2{
+  width: 30px;
+  right: 10px;
+}
+.App-header {
+  background-color: #282c34;
+  height: 10 px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
